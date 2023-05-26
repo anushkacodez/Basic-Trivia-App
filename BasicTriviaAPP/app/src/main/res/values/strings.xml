@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BasicTriviaAPP</string>
+    <string name="questionNumber">Q%d</string>
+    <string name="question">Question</string>
+    <string name="answerGiven">choice</string>
+    <string name="result_title">Result</string>
+    <string name="result_Score">%d/5</string>
+    <string name="try_again_btn">Try Again!</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="politics">Politics</string>
+    <string name="sports">Sports</string>
+</resources>

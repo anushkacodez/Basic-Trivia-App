@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseCategory"
+    android:orientation="vertical"
+    android:background="@color/material_dynamic_secondary10"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose genre!"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_margin="50sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/sports"
+        android:id="@+id/sportsBtn"
+        android:textSize="28sp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/politics"
+        android:id="@+id/politicsBtn"
+        android:layout_margin="20dp"
+
+        android:textSize="28sp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/EntBtn"
+        android:text="@string/entertainment"
+        android:layout_margin="20dp"
+        android:textSize="28sp"
+        android:textColor="@color/white"/>
+</LinearLayout>
